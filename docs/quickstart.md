@@ -1,4 +1,4 @@
-# Vacation Planner API Quickstart Guide
+ Vacation Planner API Quickstart Guide
 
 ## Overview
 
