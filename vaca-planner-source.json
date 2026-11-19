@@ -1,0 +1,191 @@
+{
+  "trip": [
+    {
+      "country": "France",
+      "city": "Paris",
+      "startDate": "2022-06-01",
+      "endDate": "2022-06-08",
+      "rating": "4",
+      "id": 1
+    },
+    {
+      "country": "Japan",
+      "city": "Tokyo",
+      "startDate": "2027-06-01",
+      "endDate": "2022-06-13",
+      "rating": "null",
+      "id": 2
+    },
+    {
+      "country": "Australia",
+      "city": "Melbourne",
+      "startDate": "2019-03-20",
+      "endDate": "2019-04-04",
+      "rating": "3",
+      "id": 3
+    },
+    {
+      "country": "USA",
+      "city": "New Orleans",
+      "startDate": "2018-02-12",
+      "endDate": "2018-02-20",
+      "rating": "2",
+      "id": 4
+    }
+  ],
+  "accomodation": [
+    {
+      "tripId": 1,
+      "type": "hotel",
+      "name": "Ritz Paris",
+      "price": "$$$$$",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "tripId": 3,
+      "type": "hotel",
+      "name": "The Langham",
+      "price": "$$$",
+      "rating": "4",
+      "id": 2
+    },
+    {
+      "tripId": 3,
+      "type": "camping",
+      "name": "Kurth Kiln Regional Park",
+      "price": "$",
+      "rating": "4",
+      "id": 3
+    },
+    {
+      "tripId": 2,
+      "type": "hotel",
+      "name": "Grand Nikko Tokyo Daiba",
+      "price": "$$$",
+      "rating": "null",
+      "id": 4
+    },
+    {
+      "tripId": 4,
+      "type": "airbnb",
+      "name": "NOLA Airbnb",
+      "price": "$",
+      "rating": "2",
+      "id": 5
+    }
+  ],
+  "dining": [
+    {
+      "tripId": 1,
+      "type": "restaurant",
+      "name": "La Tour d'Argent",
+      "price": "$$$$$",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "tripId": 2,
+      "type": "restaurant",
+      "name": "Narisawa",
+      "price": "$$$$$",
+      "rating": "null",
+      "id": 2
+    },
+    {
+      "tripId": 1,
+      "type": "bakery",
+      "name": "Boulangerie Utopie",
+      "price": "$",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "tripId": 1,
+      "type": "restaurant",
+      "name": "Pink Mama",
+      "price": "$$",
+      "rating": "4",
+      "id": 4
+    },
+    {
+      "tripId": 4,
+      "type": "bar",
+      "name": "Carousel Bar & Lounge",
+      "price": "$$",
+      "rating": "4",
+      "id": 5
+    },
+    {
+      "tripId": 3,
+      "type": "bar",
+      "name": "HER",
+      "price": "$$",
+      "rating": "3",
+      "id": 6
+    },
+    {
+      "tripId": 3,
+      "type": "bar",
+      "name": "Hemingway's Tavern",
+      "price": "$$",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "tripId": 4,
+      "type": "food truck",
+      "name": "Bonafried",
+      "price": "$",
+      "rating": "4",
+      "id": 8
+    }
+  ],
+  "activity": [
+    {
+      "tripId": 1,
+      "type": "museum",
+      "name": "Louvre",
+      "provider": "null",
+      "price": "$$",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "tripId": 2,
+      "type": "tour",
+      "name": "Free Tokyo Walking Tour",
+      "provider": "Tokyo Localized",
+      "price": "$",
+      "rating": "null",
+      "id": 2
+    },
+    {
+      "tripId": 3,
+      "type": "adventure",
+      "name": "Whitewater Kayaking",
+      "provider": "Adventure Merchants",
+      "price": "$$$",
+      "rating": "4",
+      "id": 3
+    },
+    {
+      "tripId": 4,
+      "type": "tour",
+      "name": "Vampires and Brothels Tour",
+      "provider": "French Quarter Phantoms",
+      "price": "$",
+      "rating": "4",
+      "id": 4
+    },
+    {
+      "tripId": 4,
+      "type": "landmark",
+      "name": "Jackson Square",
+      "provider": "null",
+      "price": "$",
+      "rating": "4",
+      "id": 5
+    }
+  ]
+}
